@@ -18,7 +18,7 @@ fsPromises
             `${fileName.replace(extantion, '')} - ${extantion.replace(
               '.',
               ''
-            )} - ${+(stats.size / 1024).toFixed(3)}Kb`
+            )} - ${stats.size}bytes`
           );
         });
       }
